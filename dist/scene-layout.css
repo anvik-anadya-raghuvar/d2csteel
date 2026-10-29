@@ -1,0 +1,25 @@
+/* The photograph is the complete composition: no inset panel, mat or frame. */
+.courtyard-hero{min-height:0;max-height:none}
+.courtyard-hero-image,.courtyard-editorial-image{min-height:0;max-height:none;aspect-ratio:1;align-self:center;width:100%;height:auto;display:block;background:var(--green);padding:0;border:0;box-shadow:none;line-height:0}
+.courtyard-hero-image>img,.courtyard-editorial-image>img{position:static;display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border:0;padding:0;margin:0;box-shadow:none;transform:none}
+.hero-object-caption{line-height:1.5;bottom:24px;left:6%;right:6%;color:#fff;text-shadow:0 1px 7px #09271f}
+.card-image{padding:0;border:0;background:var(--green);aspect-ratio:1;box-shadow:none}
+.card-image img{display:block;width:100%;height:100%;object-fit:contain;border:0;padding:0;margin:0;box-shadow:none;transform:none}
+.product-card:hover .card-image img{transform:none}
+.card-kicker{top:13px;left:13px;font-size:7px;padding:4px 7px;max-width:90%;border:0}
+.card-arrow{bottom:13px;right:13px}
+.gallery-main{background:var(--chalk)}
+.gallery-main img,.gallery-thumbs img,.image-dialog img{object-fit:contain;transform:none}
+.gallery-main img{border:0;padding:0;box-shadow:none}
+.courtyard-duo>a{padding:0;background:var(--chalk)}
+.courtyard-duo>a>img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border:0;padding:0;margin:0;box-shadow:none}
+.courtyard-duo>a>div{margin:0;padding:27px 30px 30px;background:var(--chalk)}
+.collection-tile img{object-fit:contain;border:0;padding:0;mix-blend-mode:normal;background:transparent}
+.range-study-card img{object-fit:contain;min-height:0;height:auto;align-self:center;aspect-ratio:1;border:0;padding:0;box-shadow:none;background:transparent}
+.range-study-card:last-child img{max-height:none}
+.pdp-lifestyle>picture{padding:0;display:block;background:var(--green);align-self:center}
+.pdp-lifestyle>picture img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border:0;padding:0;box-shadow:none}
+.pdp-lifestyle{align-items:stretch;grid-template-columns:1fr 1fr}
+.courtyard-editorial-image .photo-caption{line-height:1.5}
+@media(max-width:800px){.courtyard-hero-image,.courtyard-editorial-image{min-height:0;width:100%;height:auto;max-height:none;aspect-ratio:1}.courtyard-hero-image>img,.courtyard-editorial-image>img{position:static;width:100%;height:auto;border:0;padding:0}.card-kicker{top:9px;left:9px;font-size:6px;padding:3px 5px}.card-arrow{bottom:9px;right:9px}.courtyard-duo>a>div{padding:19px 16px 22px}.pdp-lifestyle{grid-template-columns:1fr}.pdp-lifestyle>picture img{height:auto;max-height:none}.hero-object-caption{bottom:18px}.courtyard-hero-copy{min-height:0;padding-top:30px;padding-bottom:30px}.courtyard-hero h1{font-size:78px}.courtyard-hero-copy>.ornament{margin-bottom:16px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

@@ -1,0 +1,11 @@
+# Local credentials, generated exports and tool state
+.env
+.env.*
+!.env.example
+.openai/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.tar.gz

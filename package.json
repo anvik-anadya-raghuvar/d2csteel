@@ -1,0 +1,13 @@
+{
+  "name": "d2csteel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Courtyard Edit cookware and homeware storefront preview.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "check": "node check.mjs && node --check dist/app.js"
+  }
+}
